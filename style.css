@@ -1,4 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+  font-family: 'Motterdam';
+  src: url('assets/fonts/Motterdam.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* General Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +17,8 @@
 }
 
 body {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
   color: #111;
   background-color: #fff;
   line-height: 1.6;
@@ -19,41 +31,123 @@ body {
   padding: 2rem 0;
 }
 
+.pink {
+  color: #F2D9DC;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #111;
+}
+
 /* Hero Section */
 .hero {
+  height: 100vh;
   text-align: center;
   background-color: #fff;
   padding: 6rem 2rem;
+  background-image: url('assets/apostolos-vamvouras-3XESFrPeppA-unsplash.jpg');
+  background-size: cover;
+  background-repeat: none;
+  background-position: center;
 }
 
 .logo {
-  font-size: 3rem;
-  font-weight: bold;
-  letter-spacing: 1px;
+  font-family: 'Motterdam', sans-serif;
+  font-size: 10rem;
+  font-weight: 500;
+  letter-spacing: 3px;
   color: #000;
+}
+
+.logo span {
+  color: #F2D9DC;
+  text-shadow: #111;
+  text-emphasis-color: #F2D9DC;
 }
 
 .tagline {
-  margin-top: 1rem;
+  display: flex;
+  margin: auto;
   font-size: 1.3rem;
-  color: #666;
+  line-height: 1.8rem;
+  color: #fff;
+  font-weight: 400;
+  width: 50%;
+  margin-bottom: 3rem;
+
 }
 
-.cta-button {
+.submit-button {
   display: inline-block;
-  margin-top: 2rem;
   padding: 0.75rem 2rem;
-  background-color: #f3a6a0;
+  background-color: #F2D9DC;
   color: #000;
+  letter-spacing: 1px;
   text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  border-radius: 30px;
+  
   transition: background 0.3s ease;
 }
 
-.cta-button:hover {
-  background-color: #f08b83;
+.submit-button:hover {
+  /* background-color: #e99892; */
+  background-color: #BB7C72;
+  color: #fff;
 }
+
+
+
+.email-subscription-container{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    
+    border: solid 3px white;
+    border-radius: 0.5em;
+    overflow: hidden;
+    margin-top: 1.2em;
+    width: 50%;
+    box-shadow: 2px rgba(207, 207, 207, 0.8);
+}
+.email-input{
+    font-family:  'Montserrat', sans-serif;
+    flex: 1;
+    border: none;
+    margin: 0 ;     
+    padding: 1em; 
+    color: #BB7C72;
+}
+
+.submit-button{
+      display: inline-flex;
+      border: none;
+      background-color: #F2D9DC;
+      color: #111;
+      height: 100%;
+      width: max-content;
+      align-items: center;
+      padding: 1em 2em;
+      font-weight: 600;
+      letter-spacing: 1px;
+      cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #BB7C72;
+
+}
+  
+  .email-input:focus {
+    
+    background-color: #F2D9DC;
+    color: #111;
+
+  }
+
+
 
 /* About Section */
 .about {
@@ -62,6 +156,7 @@ body {
 }
 
 .about h2 {
+
   font-size: 2rem;
   margin-bottom: 1rem;
 }
@@ -85,7 +180,7 @@ body {
 
 /* Join Section */
 .join {
-  background-color: #fef9f9;
+  background-color: #F2D9DC;
   text-align: center;
   padding: 4rem 2rem;
 }
