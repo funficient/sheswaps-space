@@ -47,7 +47,7 @@ h2 {
   text-align: center;
   background-color: #fff;
   padding: 6rem 2rem;
-  background-image: url('assets/apostolos-vamvouras-3XESFrPeppA-unsplash.jpg');
+  background-image: url('assets/apostolos-vamvouras-unsplash.jpg');
   background-size: cover;
   background-repeat: none;
   background-position: center;
@@ -84,16 +84,16 @@ h2 {
   padding: 0.75rem 2rem;
   background-color: #F2D9DC;
   color: #000;
-  letter-spacing: 1px;
+  font-weight: 700;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
   
+  text-transform: uppercase;
   transition: background 0.3s ease;
 }
 
 .submit-button:hover {
-  /* background-color: #e99892; */
+  
   background-color: #BB7C72;
   color: #fff;
 }
@@ -130,8 +130,8 @@ h2 {
       width: max-content;
       align-items: center;
       padding: 1em 2em;
-      font-weight: 600;
-      letter-spacing: 1px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
       cursor: pointer;
 }
 
