@@ -235,25 +235,25 @@ h2 {
   }
 
   h1 {
-    line-height: 5rem;
+    line-height: 3.5rem;
   }
 
   .email-subscription-container {
     flex-direction: column;
-    width: 100%;
-    position: relative;
-    bottom: 0;
+    width: 80%;
+    position: absolute;
+    bottom: 1rem;
     left: 50%;
     transform: translateX(-50%);
-    margin: 1rem;
-    text-align: center;
+    margin: 1rem 0;
+    text-align: center; !important
   }
 
   .email-input, .submit-button {
     width: 100%;
     margin-bottom: 0;
     margin: auto;
-    text-align: center;
+    text-align: center; !important
   }
   
 }
