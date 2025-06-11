@@ -246,11 +246,13 @@ h2 {
     left: 50%;
     transform: translateX(-50%);
     margin: 1rem;
+    text-align: center;
   }
 
   .email-input, .submit-button {
     width: 100%;
     margin-bottom: 0;
+    margin: auto;
     text-align: center;
   }
   
