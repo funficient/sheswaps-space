@@ -242,8 +242,13 @@ h2 {
     line-height: 3.5rem;
   }
 
+  
+
   .email-subscription-container {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 80%;
     position: absolute;
     bottom: 1rem;
@@ -253,11 +258,23 @@ h2 {
     text-align: center; !important
   }
 
+button {
+  text-align: center;
+}
+
   .email-input, .submit-button {
     width: 100%;
     margin-bottom: 0;
     margin: auto;
     text-align: center; !important
   }
+
+  .submit-button {
+     display: flex;
+    justify-content: center;  /* Centers the text inside the button */
+    align-items: center;
+    text-align: center;
+    padding: 1em 2em;
+    width: 100%;
   
 }
