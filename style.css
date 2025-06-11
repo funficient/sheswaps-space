@@ -3,9 +3,11 @@
 
 @font-face {
   font-family: 'Motterdam';
-  src: url('assets/fonts/Motterdam.ttf') format('truetype');
+  src: url('assets/Motterdam.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
+
 }
 
 /* General Reset */
