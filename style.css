@@ -217,6 +217,10 @@ h2 {
   }
 
   .tagline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     width: 100%;
     font-size: 1.1rem;
   }
